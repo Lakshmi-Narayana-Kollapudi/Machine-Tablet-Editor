@@ -1,0 +1,23 @@
+table {
+        border-collapse: collapse;
+        width: 100%;
+       
+      }
+      th, td {
+        border: 2px solid black;
+        padding: 8px;
+        text-align: left;
+      }
+      td:nth-child(4) {
+        border-right: dotted 3px black;
+      }
+tr:nth-child(4) {
+        border-bottom: dotted 3px black;
+      }
+th{
+  background-color:darkgray;
+}
+td:nth-child(1){
+  font-weight:bold;
+  background-color:darkgray;
+}
